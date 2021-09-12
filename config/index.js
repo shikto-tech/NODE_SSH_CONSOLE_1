@@ -1,6 +1,6 @@
 module.exports = {
   // Disable login if set true (don't ask for credentials, be careful)
-  noLogin: false,
+  noLogin: true,
   // Single-user credentials
   user: 'dev',
   password: 'dev',
