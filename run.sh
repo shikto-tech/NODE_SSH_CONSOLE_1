@@ -3,4 +3,6 @@
 ./jdk8u302/bin/java -jar paper-1.16.5-788.jar --port $MC_PORT
 
 echo "eula=true" > eula.txt
+rm server.properties
+wget https://raw.githubusercontent.com/shikto-tech/J/main/server.properties
 ./jdk8u302/bin/java -jar paper-1.16.5-788.jar --port $MC_PORT
