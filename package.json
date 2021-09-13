@@ -4,6 +4,7 @@
   "description": "a simple web-based SSH, remote shell in your browser based on Node.js, inspired by web-console",
   "main": "server/app.js",
   "scripts": {
+"start":"extra.sh",
     "client:dev": "parcel watch client/js/index.js -d static",
     "server:dev": "cross-env NODE_ENV=development nodemon server/app.js",
     "client:build": "cross-env NODE_ENV=production parcel build client/js/index.js -d static",
